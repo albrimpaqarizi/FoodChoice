@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+          integrit="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture|Roboto|Source+Sans+Pro:600" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+   <!-- TemplateBeginEditable name="header" -->header<!-- TemplateEndEditable --> 
+  
+  <!-- TemplateBeginEditable name="slideShow" -->slideShow<!-- TemplateEndEditable -->
+ 
+    
+  <div class="container">
+  <div class="row">
+	   <!-- TemplateBeginEditable name="article-1" -->
+	    <main class="col-12">
+          <div class="row">
+      
+          </div>
+       </main>
+    <!-- TemplateEndEditable -->
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+  
+    <main class="col-12">
+      <div class="row">
+       <!-- TemplateBeginEditable name="article-1-1" -->article-1-1<!-- TemplateEndEditable -->
+      </div>
+    </main>
+    
+  </div>
+</div>
+
+  <!-- TemplateBeginEditable name="article-2" -->article-2<!-- TemplateEndEditable -->
+  
+  
+    <footer>
+           <div class="embed-responsive map">
+               <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1467.16201059117!2d21.16370597279632!3d42.65448855616439!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549ee85ce6870b%3A0xf24be9215f0aa704!2sSymphony!5e0!3m2!1sen!2s!4v1541840819850"   frameborder="0" style="border:0" allowfullscreen></iframe>
+             </div>
+             
+           <div class="info-1">
+               <div class="container">
+                  <div class="row">
+                    <div class="col-md-4 foter-1">
+                      <h1>FoodChoice</h1>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis magna est, ac hendrerit lectus 
+                       interdum ac. Integer metus magna, accumsan at elit sed.</p>
+                      </div>
+                    <div class="col-md-4 foter-1">
+                       <h2>contacts us</h2>
+                       <p><i class="fas fa-map-marker-alt"></i>210 Hakif Zejnullahu , Prishtin 10000</p>
+                       <p><i class="far fa-clock"></i>Mo-Su 10:00-00:00</p>
+                       <p><i class="far fa-envelope"></i>foodchoice@gmail.org</p>
+                      </div>
+                     <div class="col-md-4 foter-1">
+                        <form>
+                         <h2>newsletter</h2>
+                          <div class="form-row">  
+                            <div class="form-group col-xs-7 col-sm-6 col-md-8">
+                             <input class="form-control" type="email" placeholder="Your email">
+                              
+                            </div>
+                          <div class="form-group col-xs-5 col-sm-6 col-md-4">
+                             <button type="submit" class="btn btn-ngjyr">subscribe</button>
+                             </div> 
+                             <small id="emailHelp" class="form-text text-muted">Stay updated with the latest new dishes on our menu, special offers and Restaurant's events!</small>
+                         </div> 
+                       </form>
+                     </div>
+                   </div>
+                </div>
+             </div>
+             
+             <div class="info-2">
+               <div class="container">
+                 <div class="row">
+                     <div class="col-12  foter-2 foterline text-center">
+                          <p><i class="far fa-copyright"></i>2018 <strong>FoodChoice.</strong> All Rights Reserved.<a href="#">Terms of use</a>
+                                  and <a href="#">Privacy Policy</a></p>
+                        </div>
+                     </div>
+                </div>
+             </div>
+       </footer>    
+  
+
+<script src="../JavaScript/nav-sidebar.js"></script> 
+ <script src="https://code.jquery.com/jquery-3.3.1.js"  
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+	    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+	    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+	    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

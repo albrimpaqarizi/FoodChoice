@@ -1,0 +1,311 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/template1.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>FoodChoice</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+          integrit="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture|Roboto|Source+Sans+Pro:600" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<!-- InstanceBeginEditable name="head" -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+   integrity= "sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+ <link rel="stylesheet" type="text/css" href="css/nav-sidebar.css">
+ <link rel="stylesheet" type="text/css" href="css/animate.css">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+ <link rel="stylesheet" type="text/css" href="css/rezervimi-style.css">
+ <link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture|Roboto|Source+Sans+Pro:600" rel="stylesheet">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"  
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="JavaScript/jquery.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="JQuery/clock/clockpicker.css">
+  
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+   <!-- InstanceBeginEditable name="header" -->
+       <header>
+       <div class="header-info">       
+         <div class="container">
+           <div class="row">
+             <div class="col-md-6">
+               <ul class="nav">
+                 <li class="nav-item">
+                   <a class="nav-time"><i class="far fa-clock"></i> Mo-Su 10:00-00:00</a>
+                  </li>
+                 <li class="nav-item">
+                   <a class="nav-tel"><i class="fas fa-phone-square" ></i><span> 0038 555 777</span></a>
+                 </li>
+               </ul>
+               </div>
+             <div class="col-md-6">
+                
+                <div class="nav-icon float-left">
+                  <a class="icon-instagram" href="#" ><i class="fab fa-instagram"></i></a>
+                  <a class="icon-facebook" href="#" ><i class="fab fa-facebook"></i></a>
+                  <a class="icon-twitter" href="#" ><i class="fab fa-twitter"></i></a>
+                  <a class="icon-google-plus" href="#" ><i class="fab fa-google-plus-g"></i></a>
+               </div>
+               <div class="nav-account float-right">
+                    <a class="nav-log" href="login.html"><i class="fas fa-sign-in-alt"></i> Login</a>
+                    <a class="nav-cart" href="shop-cart.html"><i class="fas fa-shopping-cart"></i> cart<span>[2]</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+         <nav class="navbar navbar-expand-lg navbar-light  sidebarNavigation" data-sidebarClass="navbar-light bg-color" >
+           <div class="container"> 
+             <!-- RD Navbar Brand--> 
+             <a class="navbar-brand" href="index.html"><img src="img/logo.jpg"  class="img-fluid d-inline-block align-top" alt="logo">FoodChoice</a> 
+             <!-- RD Navbar Panel-->
+              <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+                          <span class="navbar-toggler-icon"></span> </button>
+                          
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <form class="form-inline form-search" id="search">
+                  <input class="input-search" type="search" placeholder="Search.." aria-label="Search">
+                  <button type="submit"></button>
+                <div class="buton-icon">
+                   <i id="buton1" class="fa fa-search"></i>
+                   <i id="buton2" class="fas fa-times"></i>
+                </div>
+              </form>
+              <ul class="navbar-nav">
+               <li class="nav-item"> <a class="nav-link" href="index.html"><span>Home</span></a></li>
+               <li class="nav-item"> <a class="nav-link" href="menu.html" ><span>Menu</span></a></li>
+               <li class="nav-item"> <a class="nav-link" href="gallery.html"><span>Gallery</span></a></li>
+               <li class="nav-item"> <a class="nav-link" id="aktiv" href="rezervimi.html"><span>Reservation</span></a></li>
+               <li class="nav-item"> <a class="nav-link" href="about.html"><span>About us</span></a></li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+   <!-- InstanceEndEditable --> 
+  
+  <!-- InstanceBeginEditable name="slideShow" -->
+   <div id="particles-shape"></div>
+       <script src="JavaScript/particles.js" type="text/javascript"></script>
+       <script src="JavaScript/app-1.js" type="text/javascript"></script>
+       <script src="JavaScript/stats.js" type="text/javascript"></script> 
+  <!-- InstanceEndEditable -->
+ 
+    
+  <div class="container">
+  <div class="row">
+	   <!-- InstanceBeginEditable name="article-1" -->
+       
+	     <div class="col-12 article-1">
+           <div class="row">
+             <div class="col-10 welcome text-center animated zoomIn">
+              <h1>welcome to foodchoice</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu enim nunc. Maecenas enim leo, hendrerit eget pulvinar in, semper at lectus. Proin euismod porttitor quam eu commodo. Ut egestas placerat finibus. Mauris a pellentesque neque, et luctus elit.Vivamus rutrum nunc leo, ut rhoncus nisi iaculis id. Aliquam malesuada tortor vel tellus rutrum luctus. Vestibulum rutrum elit  quis pretium cursus. Maecenas eu tincidunt ex, a feugiat nunc.</p>
+               <img src="img/articel/welcome-border.png" class="img-fluid" alt="border-welcome">
+               </div>
+               
+               <div class="col-12 rezervo">
+                 <div class="row">
+                  <div class="col-xs-12 col-sm-1 col-md-2 "></div> 
+                  
+                 <div class="forma col-xs-12 col-sm-10 col-md-8 p-1">
+                   
+                  <form action="index.html" method="post" class="m-3">
+                    <h1 class="text-center">Restaurant Reservation</h1><br>
+                    <h5>Personal details:</h5>
+                     <div class="form-row">
+                       <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="firstname" placeholder="Firstname" required>
+                        </div>
+                       <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="lastname" placeholder="Lastname" required>
+                     </div>
+                    </div>
+                    
+                    <div class="form-row">
+                       <div class="form-group col-md-6">
+                       <div class="input-group" id="datepicker">
+                         <div class="input-group-prepend">
+                           <div class="input-group-text"><i class="fas fa-birthday-cake"></i></div>
+                           </div>
+                          <input type="date" class="form-control" id="birthday"  required >
+                         </div>
+                       </div>         
+                        <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="city" placeholder="City" required>
+                     </div>
+                     </div>
+                     
+                      <div class="form-row">
+                       <div class="form-group col-md-6">
+                        <input type="email" class="form-control" id="idEmail" placeholder="Email" required>
+                        </div>
+                       <div class="form-group col-md-6">
+                        <input type="tel" class="form-control" id="idPhone" placeholder="Phone" required>
+                     </div>
+                    </div>
+                     
+                     
+                     <br><h4>Table book:</h4>
+                     <div class="form-row">
+                       <div class="form-group col-md-6">
+                         <div class="input-group ">
+                         <div class="input-group-prepend">
+                           <div class="input-group-text"><i class="far fa-calendar-alt"></i></div>
+                           </div>
+                         <input type="date" class="form-control" id="data"  required>
+                        </div>
+                        </div>
+                       <div class="form-group col-md-6">
+                         <div class="input-group clockpicker">
+                         <div class="input-group-prepend">
+                           <div class="input-group-text"><i class="far fa-clock"></i></div>
+                           </div>
+                             <input type="text" class="form-control" value="" placeholder="00:00">
+                           </div>
+                             <script type="text/javascript" src="JQuery/clock/clockpicker.js"></script>
+                            <script type="text/javascript">
+                              $('.clockpicker').clockpicker({
+                                     placement: 'bottom',
+                                     align: 'left',
+                                     donetext: 'Done'
+                                  });
+                            </script>
+                        </div>
+                    </div>
+                    
+                     <div class="form-row">
+                     <div class="form-group col-md-6">
+                        <select class="form-control">
+                          <option>For one person</option>
+                          <option>For two person</option>
+                          <option>For three person</option>
+                          <option>For four person</option>
+                          <option>For five person</option>
+                          <option>For six person</option>
+                          <option>For seven person</option>
+                        </select>
+                     </div>
+                     <div class="form-group col-md-6">
+                       <textarea rows="1" class="form-control ">Text...</textarea>
+                       </div>
+                     </div>
+                    
+                    <div class="form-row">
+                       <div class="btn-group col-12">
+                     <button type="submit" class="btn btn-success col-12">Reserve</button>
+                     </div>
+                     </div>
+                   </form>
+                  </div>
+                    <div class="col-xs-12 col-sm-1 col-md-2"></div> 
+                  </div>
+                </div>
+             </div>
+           </div>
+           
+	   <!-- InstanceEndEditable -->
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+  
+    <main class="col-12">
+      <div class="row">
+       <!-- InstanceBeginEditable name="article-1-1" --><!-- InstanceEndEditable -->
+      </div>
+    </main>
+    
+  </div>
+</div>
+
+  <!-- InstanceBeginEditable name="article-2" -->
+     <div class="container-fluid article-2">
+      <div class="atmosphere">
+        <h1><span>warm atmosphere</span></h1>
+         <div class="row">
+            <div class="column">
+                 <img src="img/rezervimi-img/img-1.jpg" class="w-100 img-hover" alt="img-1">
+                 <img src="img/rezervimi-img/img-2.jpg" class="w-100 img-hover" alt="img-2">
+                </div>
+             <div class="column">
+                 <img src="img/rezervimi-img/img-3.jpg" class="w-100 img-hover" alt="img-3">
+                 <img src="img/rezervimi-img/img-4.jpg" class="w-100 img-hover" alt="img-4">
+                </div>
+              </div>
+            </div>
+         </div>
+  <!-- InstanceEndEditable -->
+  
+  
+    <footer>
+           <div class="embed-responsive map">
+               <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1467.16201059117!2d21.16370597279632!3d42.65448855616439!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549ee85ce6870b%3A0xf24be9215f0aa704!2sSymphony!5e0!3m2!1sen!2s!4v1541840819850"   frameborder="0" style="border:0" allowfullscreen></iframe>
+             </div>
+             
+           <div class="info-1">
+               <div class="container">
+                  <div class="row">
+                    <div class="col-md-4 foter-1">
+                      <h1>FoodChoice</h1>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis magna est, ac hendrerit lectus 
+                       interdum ac. Integer metus magna, accumsan at elit sed.</p>
+                      </div>
+                    <div class="col-md-4 foter-1">
+                       <h2>contacts us</h2>
+                       <p><i class="fas fa-map-marker-alt"></i>210 Hakif Zejnullahu , Prishtin 10000</p>
+                       <p><i class="far fa-clock"></i>Mo-Su 10:00-00:00</p>
+                       <p><i class="far fa-envelope"></i>foodchoice@gmail.org</p>
+                      </div>
+                     <div class="col-md-4 foter-1">
+                        <form>
+                         <h2>newsletter</h2>
+                          <div class="form-row">  
+                            <div class="form-group col-xs-7 col-sm-6 col-md-8">
+                             <input class="form-control" type="email" placeholder="Your email">
+                              
+                            </div>
+                          <div class="form-group col-xs-5 col-sm-6 col-md-4">
+                             <button type="submit" class="btn btn-ngjyr">subscribe</button>
+                             </div> 
+                             <small id="emailHelp" class="form-text text-muted">Stay updated with the latest new dishes on our menu, special offers and Restaurant's events!</small>
+                         </div> 
+                       </form>
+                     </div>
+                   </div>
+                </div>
+             </div>
+             
+             <div class="info-2">
+               <div class="container">
+                 <div class="row">
+                     <div class="col-12  foter-2 foterline text-center">
+                          <p><i class="far fa-copyright"></i>2018 <strong>FoodChoice.</strong> All Rights Reserved.<a href="#">Terms of use</a>
+                                  and <a href="#">Privacy Policy</a></p>
+                        </div>
+                     </div>
+                </div>
+             </div>
+       </footer>    
+  
+
+<script src="JavaScript/nav-sidebar.js"></script> 
+ <script src="https://code.jquery.com/jquery-3.3.1.js"  
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+	    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+	    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+	    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+<!-- InstanceEnd --></html>

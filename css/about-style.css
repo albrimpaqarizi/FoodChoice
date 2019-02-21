@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS about us */
+
+.navbar{
+    background-color: white;
+	border-bottom: 1px solid #ECECEC;
+	box-shadow: 0px 2px 8px 2px #ECECEC;
+}
+
+.about{
+	padding-top: 100px;
+}
+.title-about {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 2px;
+	color: black;
+	padding-bottom: 10px;
+}
+.title-about span{
+	color: #ff6600;
+}
+.nen-title-about{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 2px;
+}
+.nen-title-about span{
+	color: #ff6600;
+}
+.description-about{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+	color: black;
+}
+.services{
+	padding-top: 100px;
+	margin-bottom: 50px;
+}
+.title-services{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 2px;
+	color: black;
+	padding-bottom: 10px;
+}
+.services h6{
+	text-align:center;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1.3px;
+	font-size: 15px;
+	font-weight: 400;
+	opacity: 0.5;
+	padding-bottom: 20px;
+}
+.services i{
+	color: #ff6600;
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
+.services h3{
+	color: #000000;
+	margin-bottom: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+}
+.services p{
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1.3px;
+	font-size: 15px;
+	font-weight: 700;
+	opacity: 0.5;
+}
+
+.about-2{
+	background-image: url(../img/about/about-2.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	width: 100%;
+	margin-top: 50px;
+}
+.about-2 h2 {
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+.about-2 h2 span{
+	color: #ff6600;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+@media only screen and (max-width: 349.98px) { .about-2 h2 {
+	font-size: 15px;
+	
+} }
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 350px) and (max-width: 575.98px) { .about-2 h2 {
+	font-size: 18px;
+	
+} }
+@media (min-width: 576px) and (max-width: 767.98px) { .about-2 h2 {
+	font-size: 20px;
+	
+} }
+.about-overview{
+	background: rgba( 0,0,0, 0.4);
+	margin-bottom: 100px;
+}
+.about-overview h1{
+	color: #ff6600;
+	margin-bottom: 15px;
+}
+.about-overview h3 {
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 10px;
+	color: #fff;
+}
+.about-overview span{
+	display: block;
+	background-color: #ff6600;
+	width: 50px;
+	height: 2px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.about-overview p{
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 10px;
+	font-size: 17px;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

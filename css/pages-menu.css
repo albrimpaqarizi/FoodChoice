@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* CSS pages-menu */
+
+
+
+
+.img-product{
+}
+@media (max-width: 991.98px) {  .info-product{
+     margin-top: 30px;
+} }
+.title-food {
+   font-family: 'Roboto', sans-serif;
+   color: #535353;
+   font-size: 2rem;
+   letter-spacing: 1.5px;
+   border-bottom: 1px solid #CBCBCB;
+}
+@media (max-width: 576px) {  .title-food {
+     font-size: 1.3rem;
+} }	
+.rate-food {
+   color: #535353;
+   font-size: 0.9rem;
+   border-bottom: 1px solid #CBCBCB; 
+}
+.rate i {
+   color: #FFE500;
+}
+.info-food {
+   font-family: 'Roboto', sans-serif;
+   color: #535353;
+   font-size: 1rem;
+   letter-spacing: 1.2px;
+   border-bottom: 1px solid #CBCBCB;
+}
+.info-food span {
+   color: #C7C5C5;
+}
+.info-food input , .info-food select {
+   cursor: pointer;
+}
+.cmimi-food h4{
+   font-family: 'Roboto', sans-serif;
+   color: #000000;
+   font-size: 1.3rem;
+   font-weight:600;
+   letter-spacing: 1.2px;
+}
+.cmimi-food p{
+   font-family: 'Roboto', sans-serif;
+   color: #535353;
+   font-size: 0.8rem;
+   padding-top: 2px;
+}
+.button-cart .btn {
+   border-radius: 0;
+   padding: 0.375rem 0.55rem;
+   font-family: 'Roboto', sans-serif;
+   text-transform: uppercase;
+   background-color: #ff6600;
+   color: #fff;
+}
+.button-cart .btn:hover {
+   background-color: #000;
+   color: #fff;
+}
+.button-cart .btn:focus, .btn.focus {
+  outline: 0;
+  box-shadow: none;
+}
+.button-cart span {
+   font-size: 1rem;
+   text-align:center;
+   font-family: 'Roboto', sans-serif;
+   text-transform: uppercase;
+   background-color: #000;
+   color: #fff;
+   cursor: pointer;
+}
+.button-cart i {
+   padding: 9px 12px;
+   padding-bottom: 13px;
+}
+.button-cart span:hover {
+   background-color: #ff6600;
+   color: #fff;
+}
+@media (max-width: 576px) {  .button-cart {
+   border-bottom: 1px solid #CBCBCB;  
+} }
+.description-reviews .btn {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 1.1px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #000;
+  position: relative;
+  display: block;
+  margin-left: -1px;
+  line-height: 1.25;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0;
+  cursor: pointer;
+}
+.description-reviews .btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+@media (max-width: 576px) {  .description-reviews .btn {
+     font-size: 0.67rem;
+} }
+@media (max-width: 992px) {  .description-link  {
+  z-index: 2;
+  color: #fff;
+  text-decoration: none;
+  background-color: #ff6600;
+  border-color: #ff6600;
+} }
+.description-reviews .btn:hover {
+  z-index: 2;
+  color: #fff;
+  text-decoration: none;
+  background-color: #ff6600;
+  border-color: #ff6600;
+  transition: ease-in 0.3s;
+}
+.description-reviews .btn-hover {
+  z-index: 2;
+  color: #fff;
+  text-decoration: none;
+  background-color: #ff6600;
+  border-color: #ff6600;
+  transition: ease-in 0.3s;
+}
+.description-food p {
+   font-family: 'Roboto', sans-serif;
+   font-size: 1rem;
+   color: #535353;
+}
+@media (max-width: 576px) {  .description-food p {
+     font-size: 0.9rem;
+} }
+.description-food h5 {
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.3rem;
+}
+@media (max-width: 576px) {  .description-food h5 {
+     font-size: 1.1rem;
+} }
+
+.reviews-info {
+	display: none;
+}
+.reviews-info .user-name {
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.2rem; 
+   color: #535353;
+}
+@media (max-width: 576px) { .reviews-info .user-name{
+     font-size: 0.9rem;
+} }
+.reviews-info .data-review {
+   font-family: 'Roboto', sans-serif;
+   color: #535353;
+   font-size: 1.2rem; 
+}
+@media (max-width: 576px) { .reviews-info .data-review {
+     font-size: 0.9rem;
+} }
+.reviews-info .user-description {
+   font-family: 'Roboto', sans-serif;
+   color: #6E6E6E;
+   font-size: 1rem; 
+}
+@media (max-width: 576px) { .reviews-info .user-description {
+     font-size: 0.85rem;
+} }
+.reviews-info h3 {
+   font-family: 'Roboto', sans-serif;
+   color: #535353;
+   font-size: 1.5rem;
+}
+.form-review label span , .form-review p span {
+   color: red;
+}
+.form-review  label {
+   font-family: 'Roboto', sans-serif;
+   color: #535353;
+   font-size: 0.9rem;
+}
+.form-review .form-control {
+	border-radius: 0;
+}
+.form-review small {
+   color: #535353;
+   font-family: 'Roboto', sans-serif;
+   font-size: 0.9rem; 
+}
+.form-review small span {
+   color: #9C0202;
+}
+.form-review p {
+   color: #535353;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1rem; 
+}
+.form-review p span {
+   color: red;
+}
+.form-review .form-check-label {
+   color: #535353;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1rem; 
+}
+@media (max-width: 576px) { .form-review .form-check-inline {
+	margin-right: 5px !important;
+} }
+.form-check-input {
+	cursor: pointer;
+}
+.form-review .btn {
+   font-family: 'Roboto', sans-serif;
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 1rem; 
+   border-radius: 0;
+   background-color:#000;
+   padding-right: 30px;
+   padding-left: 30px;
+   margin-top: 20px;
+}
+.form-review .btn:hover {
+   background-color: #ff6600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

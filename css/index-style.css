@@ -1,0 +1,368 @@
+@charset "utf-8";
+/* CSS Main index*/
+
+
+
+@media (min-width: 768px) { .carousel-indicators {
+	 bottom:15%;
+	 margin-right: 60%;
+	} }
+@media (min-width: 768px) {  .carousel-caption {
+	 bottom:25%;
+	 margin-right: 45%;
+	} }	
+.carousel-indicators li {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color:#fff;
+   }
+.carousel-indicators .active {
+  background-color: #ff6600;
+    }
+.carousel-caption{
+	display:block;
+	text-transform: uppercase;
+	}
+.carousel-caption p{
+	  animation-delay: 1s;
+	  font-family: 'Source Sans Pro', sans-serif;
+	}	
+.carousel-caption p span {
+	  border-radius: 30px 10px;
+	  padding-left:15px;
+	  padding-right:15px;
+	  background-color: #ff6600;
+	  font-style: oblique;
+	  text-transform:lowercase;
+	}
+.carousel-caption h5{
+	  color: black;
+	  animation-delay: 2s;
+	  font-family: 'Roboto', sans-serif;
+	}
+.carousel-caption h2{
+	  animation-delay: 1.5s;
+	  font-family: 'Black And White Picture', sans-serif;
+	}	
+	
+@media (min-width: 576px) {  .carousel-caption p{
+	  font-size: 25px;
+	} }	
+@media (min-width: 992px) {  .carousel-caption p{
+	  font-size: 35px;
+	} }		
+@media (min-width: 576px) {  .carousel-caption h2{
+	  font-size: 40px;
+	} }	
+@media (min-width: 992px) {  .carousel-caption h2{
+	  font-size: 55px;
+	} }
+@media (min-width: 576px) {  .carousel-caption h5{
+	  font-size: 25px;
+	} }	
+@media (min-width: 992px) {  .carousel-caption h5{
+	  font-size: 35px;
+	} }		
+	
+
+.article-1{
+    margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+.thumbnail{
+    display: inline-block;
+    position: relative;
+    transition: 1s;
+    max-width: 566px;
+    margin-left: auto;
+    margin-right: auto;
+	padding: 2px;
+	margin-bottom: 15px;
+	cursor:pointer;
+}
+.thumbnail .caption-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 15px;
+    z-index: 1;
+	color: #fff;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-weight:900;
+}
+.thumbnail:hover{
+	 -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+}
+.caption-text h3{
+	 font-size: 40px;
+	}
+@media (min-width: 768px) and (max-width: 991.98px) { .caption-text h3{
+	 font-size: 20px;
+	} }	
+@media (min-width: 768px) and (max-width: 991.98px) { .caption-text p{
+	 font-size: 10px;
+	} }		
+
+
+
+
+.artikulli-1-1 {
+  margin-top:20px;
+  margin-bottom: 30px;
+}
+.artikulli-1-1 .list-group-item {
+  padding: 0;
+  padding-bottom: 20px;
+  border: 0;
+}
+.artikulli-1-1 h3:first-child {
+	 margin-bottom: 30px;
+	 font-family: 'Source Sans Pro', sans-serif;
+     font-size: 20px;
+     font-weight: 400;
+     text-transform: uppercase;
+}
+.artikulli-1-1 h3:first-child span{
+	padding-bottom: 3px;
+	 border-bottom: 2px solid #ff6600;
+}
+
+.artikulli-1-1 .list-group-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.artikulli-1-1 .list-group-item:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.list-item-title-wrapper {
+    display: flex;
+    flex: 0 1 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.list-item-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 15px;
+    letter-spacing: 0px;
+    color: #ff6600;
+    align-self: flex-start;
+}
+.list-item-title-wrapper>* {
+    flex: 0 1 auto;
+    flex-grow: 0;
+    margin: 0;
+}
+.list-item-separator {
+    border-style: dotted;
+    border-bottom-width: 1px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-color: #25292d;
+    align-self: flex-end;
+    margin-bottom: 3px;
+	position: relative;
+    height: 0;
+    flex-grow: 1;
+}
+ .list-item-price {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 15px;
+    letter-spacing: 0px;
+    color: #ff6600;
+    border-radius: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    align-self: flex-start;
+    text-align: right;
+}
+.list-item-desc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #7b7e81;
+    margin: -4px 0px 0px 0px;
+    text-align: left;
+}
+.artikulli-1-1 .main-menu-1 , .artikulli-1-1 .main-menu-2  {
+	 margin-top:80px;
+}
+@media (min-width: 992px) and (max-width: 1199.98px) { .artikulli-1-1 .main-menu-1 , .artikulli-1-1 .main-menu-2  {
+	 margin-top:35px;
+}}
+@media (min-width: 768px) and (max-width: 991.98px) {.artikulli-1-1 .main-menu-1 , .artikulli-1-1 .main-menu-2  {
+	 margin-top:0px;
+} }	
+@media (min-width: 992px) { .artikulli-1-1 .list-item-desc {
+	line-height: 30px;
+}}	
+	
+	
+.article-2{
+	background-image: url(../img/articel/cover.jpg) ;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	color: #fff;
+	padding: 20px;
+	}
+@media only screen and (max-width: 319.98px) { .article-2 {
+		height: 200px;
+}}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575.98px) { .article-2 {
+		height: 225px; 
+} }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { .article-2 {
+		height: 250px; 
+} }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { .article-2 {
+		height: 300px; 
+} }
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { .article-2 {
+		height: 350px; 
+} }
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { .article-2 {
+		height: 500px; 
+} }
+.oferta-ditore {
+        right: 15%;
+        bottom: 20px;
+        left: 15%;
+        z-index: 1;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+.oferta-ditore h1 {
+       text-transform:uppercase;
+	   font-style:italic;
+	   font-weight: bold;		
+}
+.oferta-ditore h5{
+	   font-style:italic;
+	   font-weight:600;		
+}
+.oferta-ditore h5 span , .oferta-ditore h2 , .oferta-ditore h2 sub{
+	   	color: #ff6600;
+}
+.oferta-ditore a button{
+	   background-color: #FFE641;
+	   text-transform:uppercase;
+}
+.oferta-ditore a button:hover{
+	   background-color: #ff6600;	
+}
+ .oferta-ditore .btn {
+	   display: inline-block;
+       font-weight: 400;
+       text-align: center;
+       white-space: nowrap;
+       vertical-align: middle;
+       -webkit-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+        user-select: none;
+        border: 1px solid transparent;
+        padding: 5px 20px;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: 15px;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+@media (min-width: 768px) and (max-width: 991.98px){ .oferta-ditore .btn {
+	    padding: 7px 24px;
+		font-size: 18px;
+		border-radius: 21px;
+} }
+@media (min-width: 992px) and (max-width: 1199.98px) { .oferta-ditore .btn{
+	    padding: 10px 30px;
+		font-size: 20px;
+		border-radius: 26px;
+} }
+@media (min-width: 1200px) { .oferta-ditore .btn{
+	    padding: 12px 44px;
+		font-size: 22px;
+		border-radius: 30px;
+} }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { .oferta-ditore h1{
+	    font-size: 70px;
+} }
+@media (min-width: 992px) and (max-width: 1199.98px) { .oferta-ditore h2{
+	    font-size: 40px;
+} } 
+@media (min-width: 992px) and (max-width: 1199.98px) { .oferta-ditore h5{
+	    font-size: 30px;
+} } 
+  
+@media (min-width: 768px) and (max-width: 991.98px) { .oferta-ditore h1{
+	    font-size: 55px;
+} }
+@media (min-width: 768px) and (max-width: 991.98px) { .oferta-ditore h2{
+	    font-size: 35px;
+} } 
+@media (min-width: 768px) and (max-width: 991.98px) { .oferta-ditore h5{
+	    font-size: 25px;
+} } 
+   
+ @media (min-width: 1200px) { .oferta-ditore h1{
+	    font-size: 80px;
+} }
+@media (min-width: 1200px) { .oferta-ditore h2{
+	    font-size: 45px;
+} } 
+@media (min-width: 1200px) { .oferta-ditore h5{
+	    font-size: 35px;
+} } 
+@media (min-width: 1200px) { .oferta-ditore {
+	    margin-top: 50px;
+} }    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
